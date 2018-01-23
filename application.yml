@@ -16,7 +16,6 @@ spring:
       services:
             registrationMethod: route
 
-spring:
   sleuth:
       sampler:
             percentage: 100.0
