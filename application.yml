@@ -9,4 +9,9 @@ security:
             logging:
               level:
                   io:
-                        pivotal: DEBUG
+                      pivotal: DEBUG
+
+spring:
+  cloud:
+      services:
+            registrationMethod: route
